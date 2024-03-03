@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="darkMode">
+    <header>
+      <div class="container">
+        <nav>
+          <div class="dark-mode">
+            <div class="animation">
+              <div class="circle circleMove"></div>
+            </div>
+            <p>Light Mode</p>
+            <p class="mode">Dark Mode</p>
+          </div>
+          <div class="header-input">
+            <img src="./Images/search 1.png" alt="" />
+            <input type="text" />
+          </div>
+          <button class="header-button">
+            <img src="./Images/current location icon.png" alt="" />
+            Current Location
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container" id="first">
+          <div class="time">
+            <h2 class="time-h2" id="location">Athens</h2>
+            <div>
+              <h1 id="nowTime">09:03</h1>
+              <p id="currentDate">Thursday, 31 Aug</p>
+            </div>
+          </div>
+          <div class="weather">
+            <ul>
+              <li class="second">
+                <h1 id="location">Athens</h1>
+                <p class="second-p">Feels like: <span>22°C</span></p>
+                <div class="sunset-rise">
+                  <img src="./Images/sunrise-white 1.png" alt="" />
+                  <div>
+                    <p>Sunrise</p>
+                    <span id="sunrise">06:37 AM</span>
+                  </div>
+                </div>
+                <div class="sunset-rise">
+                  <img src="./Images/sunset-white 1.png" alt="" />
+                  <div>
+                    <p>Sunset</p>
+                    <span id="sunset">20:37 AM</span>
+                  </div>
+                </div>
+              </li>
+              <li class="sun">
+
+              </li>
+              <li class="weather-cards">
+                <div class="weather-card">
+                  <img src="./Images/humidity 1.png" alt="" />
+                  <h3 id="humidity">41%</h3>
+                  <p>Humidity</p>
+                </div>
+                <div class="weather-card">
+                  <img src="./Images/wind 1.png" alt="" />
+                  <h3 id="wind">2km/h</h3>
+                  <p>Wind Speed</p>
+                </div>
+                <div class="weather-card">
+                  <img src="./Images/pressure-white 1.png" alt="" />
+                  <h3 id="pressure">997hPa</h3>
+                  <p>Pressure</p>
+                </div>
+                <div class="weather-card">
+                  <img src="./Images/uv-white 1.png" alt="" />
+                  <h3 id="uv">8</h3>
+                  <p>UV</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container" id="final-flex">
+          <div id="second">
+            <h2>5 Days Forecast:</h2>
+            <div>
+              <ul id="second-ul">
+
+              </ul>
+            </div>
+          </div>
+          <div id="third">
+            <h2>Hourly Forecast:</h2>
+            <div class="third-cards">
+              <div class="card">
+                <ul>
+                  <li>
+                    <h3>12:00</h3>
+                  </li>
+                  <li>
+                    <img src="./Images/clear 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>26°C</p>
+                  </li>
+                  <li>
+                    <img src="./Images/navigation 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>3km/h</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul>
+                  <li>
+                    <h3>15:00</h3>
+                  </li>
+                  <li>
+                    <img src="./Images/clear 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>27°C</p>
+                  </li>
+                  <li>
+                    <img src="./Images/navigation 3.png" alt="">
+                  </li>
+                  <li>
+                    <p>2km/h</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <ul>
+                  <li>
+                    <h3>18:00</h3>
+                  </li>
+                  <li>
+                    <img src="./Images/clear 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>27°C</p>
+                  </li>
+                  <li>
+                    <img src="./Images/navigation 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>2km/h</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card dark-card">
+                <ul>
+                  <li>
+                    <h3>21:00</h3>
+                  </li>
+                  <li>
+                    <img src="./Images/clear 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>25°C</p>
+                  </li>
+                  <li>
+                    <img src="./Images/navigation 1.png" alt="">
+                  </li>
+                  <li>
+                    <p>3km/h</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="card dark-card">
+                <ul>
+                  <li>
+                    <h3>00  :00</h3>
+                  </li>
+                  <li>
+                    <img src="./Images/clear 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>22°C</p>
+                  </li>
+                  <li>
+                    <img src="./Images/navigation 2.png" alt="">
+                  </li>
+                  <li>
+                    <p>3km/h  </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./utily.js"></script>
+  <script src="./index.js"></script>
+</html>
